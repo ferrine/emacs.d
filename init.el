@@ -13,3 +13,7 @@
   (treesit-auto-add-to-auto-mode-alist 'all)
   (global-treesit-auto-mode))
 
+(use-package helm
+  :config
+  (global-set-key (kbd "M-x") 'helm-M-x))
+
