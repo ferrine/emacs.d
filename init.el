@@ -4,7 +4,7 @@
 (load-theme `modus-operandi)
 (setq-default indent-tabs-mode nil)
 (use-package nix-ts-mode
- :mode "\\.nix\\'")
+  :mode "\\.nix\\'")
 (use-package treesit-auto
   :config
   (treesit-auto-add-to-auto-mode-alist 'all)
