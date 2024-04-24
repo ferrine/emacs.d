@@ -2,6 +2,9 @@
 (add-to-list 'default-frame-alist '(font . "IBM Plex Mono" ))
 (set-face-attribute 'default t :font "IBM Plex Mono")
 (load-theme `modus-operandi)
+(scroll-bar-mode -1)
+
+;; Developement
 (setq-default indent-tabs-mode nil)
 (use-package nix-ts-mode
   :mode "\\.nix\\'")
@@ -9,3 +12,4 @@
   :config
   (treesit-auto-add-to-auto-mode-alist 'all)
   (global-treesit-auto-mode))
+
